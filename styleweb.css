@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Oswald:wght@600;700&display=swap');
+
+* { margin:0;
+padding:0;
+box-sizing : border-box ;}
+
+body{
+font-family: 'Oswald', sans-serif;
+}
+
+nav{ display: flex ;
+justify-content:space-between ; 
+align-items:center;
+max-width: 1366 px;
+height:10vh;
+margin: 0 auto ; 
+padding: 0 5rem;
+]
+}
+nav .logo { 
+display:flex;
+font-size: 2rem;
+align-items:center;}
+
+nav .logo i { color:#CCD6A6; 
+padding-left: 0.75rem;
+}
+nav .logo h3 { color:#658864; 
+font-family: 'Oswald', sans-serif;}
+
+nav .Item { 
+display:flex;
+list-style-type:none;}
+nav .Item .Item{
+padding:0 1rem;}
+
+
+nav .link{text-decoration:none;
+color:#658864;
+font-size: 1.4rem;}
+
+nav .link:hover{
+ color:black;}
+
+/*hero section */
+
+.content {background-color: #EAE7B1;}
+
+.ccontent{max-width:1366 px;
+height:90vh;
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin: 0 auto;
+padding: 0 5 rems; }
+
+.content .cccontent {
+display:flex;
+flex-direction:column; }
+
+.content h1 {color:#3C6255;
+font-size : 1.6rem;
+margin:1rem;} 
+
+.content .ccontent p { color : #61876E ; 
+font-size: 1.4 rem;
+}
+
+
+.content p span {color:#473C33;}
+
+.bt {width:10rem;
+margin-top: 3rem;
+border-radius : 0.5rem;
+outline: none;
+padding:0.75rem 1.5rem;
+background-color : #DAE2B6;}
+
+.bt:hover {background-color : #B99B6B; 
+cursor :pointer;
+}
+.bt a { 
+text-decoration:none; 
+color : #658864; 
+font-size:1.4rem; }
+.submit { font-size: 90 ; } 
